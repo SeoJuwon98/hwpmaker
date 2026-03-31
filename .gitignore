@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+.venv312/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Env
+.env
+*.env
+
+# Storage / generated files
+backend/storage/
+output/
+tmp/
+*.hwpx
+*.hwp
+
+# Virtual envs in subdirs
+fail/hwp-analysis-venv/
+fail/hwp_html/
+fail/hwp_text/
+fail/pdfs/
+
+# Node
+node_modules/
+.next/
+out/
+
+# Template binaries
+template/pdf/
+template/hwpx/
+template/*.hwp
+template/*.hwpx
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude
+.claude/
+
+# Scratch files
+exam.md
